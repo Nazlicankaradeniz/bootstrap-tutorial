@@ -1,0 +1,22 @@
+body{
+    background: url(img/bg2.jpg);
+    background-repeat: no-repeat;/*tekrar etmesini kaldırıdık*/
+    background-size: cover;/*fotonun alanın kaplaması*/
+}
+.nav-link{
+    color: black;
+}
+.border-pink{
+    border-color: #ef619f !important;/*çalışacak kodu ilk sıraya alır  çok ama çok zorda kalırsan kullan*/
+}
+.active{
+    color:#ef619f;
+    background-color:aquamarine;
+}
+.text-bg-pink{
+    background-color: #c4809d;;
+}
+.card-title{
+    color: #ffffff;
+    background-color:#c4809d;
+}
