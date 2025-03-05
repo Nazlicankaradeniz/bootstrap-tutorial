@@ -1,0 +1,52 @@
+:root{
+--renk-koyu-mavi:#075192;
+--renk-acik-mavi:#0c63a9;
+}
+
+
+
+/*üst bölüm*/
+header{
+    background-color: var(--renk-koyu-mavi);
+}
+
+#main-menu{
+    background-color: var(--renk-acik-mavi);
+}
+
+#main-menu .nav-link{
+color: #ffff;
+}
+#site-baslik h2{
+    color:var(--renk-koyu-mavi)
+}
+#site-baslik h3{
+    color: var(--renk-acik-mavi);
+}
+
+/*orta bölüm*/
+ #baglanti-liste .list-group-item{
+    background-color: var(--renk-koyu-mavi);
+  }
+
+#baglanti-liste .nav-link{
+    color: #ffff;
+}
+.carousel-indicators [data-bs-target]{
+    width: 75px;
+   height: auto;/*yüksekliği otomatik ayarla*/
+    
+}
+#slider1 .carousel-caption h5{
+    background-color: #000005 ;
+    color: #ffff;
+    padding: 1rem 0;
+}
+/*genel css*/
+.sol-ust-yuvarla{
+    border-top-left-radius: 1rem; /*top üst left sol demek  sol üstden yuvarlak yap*/
+}
+
+.sag-alt-yuvarla{
+    border-bottom-right-radius: 2rem !important; /*bottom alt right sağ demek sağ alttan yuvarlak yap*/
+}
